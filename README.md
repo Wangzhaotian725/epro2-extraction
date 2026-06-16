@@ -72,7 +72,7 @@ python3 -m epro2x.extract path/to/YourBoard.epro2 -o some/dir/
 
 | 文件 | 内容 |
 |------|------|
-| `analysis.json` | **发给我做评审的文件。** 下列全部内容打包成一个文件。 |
+| `analysis.json` | **做评审的文件。** 下列全部内容打包成一个文件。 |
 | `components.csv` | 原理图元件 + 值 / 厂商料号 / 封装 |
 | `placements.csv` | PCB 元件坐标（mm）、所在面、旋转角 |
 | `traces.csv` | 每条走线段（mm），含网络、层、线宽 |
